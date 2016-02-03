@@ -1,0 +1,119 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/userspace/y/yunhe/cs552/hw1/hw1_2
+T_opt
+!s110 1454484870
+V6YWdTZGY36ALPeRh0HG1o2
+04 4 4 work FA_1 fast 0
+=1-2c27d71f977e-56b1ad85-c729b-e8e
+o-quiet -auto_acc_if_foreign -work hw1_2
+n@_opt
+OL;O;10.4;61
+vFA_1
+Z1 !s110 1454484858
+!i10b 1
+!s100 U=z_aX?o;jKT9XBD>keAE1
+Im_AOiJJ[?3JJcnB<I`g9f1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1454484856
+8/userspace/y/yunhe/cs552/hw1/hw1_2/FA_1.v
+F/userspace/y/yunhe/cs552/hw1/hw1_2/FA_1.v
+L0 1
+Z3 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1454484858.072576
+!s107 /userspace/y/yunhe/cs552/hw1/hw1_2/FA_1.v|
+!s90 -reportprogress|300|-work|hw1_2|-vopt|-stats=none|/userspace/y/yunhe/cs552/hw1/hw1_2/FA_1.v|
+!i113 0
+Z4 o-work hw1_2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@f@a_1
+vnand2
+Z5 !s110 1454484857
+!i10b 1
+!s100 ISa?1STS90[eV_=8949@R1
+I4KoA;B:1`nJ3C=1NCVDOh2
+R2
+R0
+Z6 w1453157725
+8/userspace/y/yunhe/cs552/hw1/hw1_2/nand2.v
+F/userspace/y/yunhe/cs552/hw1/hw1_2/nand2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1454484857.743665
+!s107 /userspace/y/yunhe/cs552/hw1/hw1_2/nand2.v|
+!s90 -reportprogress|300|-work|hw1_2|-vopt|-stats=none|/userspace/y/yunhe/cs552/hw1/hw1_2/nand2.v|
+!i113 0
+R4
+vnor2
+R5
+!i10b 1
+!s100 SNK[jK6955=m0Zbh6gQU`3
+ICJ[I[K4eQ[mQSi3Ug;OSY3
+R2
+R0
+R6
+8/userspace/y/yunhe/cs552/hw1/hw1_2/nor2.v
+F/userspace/y/yunhe/cs552/hw1/hw1_2/nor2.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1454484857.838666
+!s107 /userspace/y/yunhe/cs552/hw1/hw1_2/nor2.v|
+!s90 -reportprogress|300|-work|hw1_2|-vopt|-stats=none|/userspace/y/yunhe/cs552/hw1/hw1_2/nor2.v|
+!i113 0
+R4
+vnot1
+R5
+!i10b 1
+!s100 KWFGS]d0`N730YhRHI;lF1
+IdcaQ?i=8_I^?a=ZQb>T1n3
+R2
+R0
+R6
+8/userspace/y/yunhe/cs552/hw1/hw1_2/not1.v
+F/userspace/y/yunhe/cs552/hw1/hw1_2/not1.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1454484857.921240
+!s107 /userspace/y/yunhe/cs552/hw1/hw1_2/not1.v|
+!s90 -reportprogress|300|-work|hw1_2|-vopt|-stats=none|/userspace/y/yunhe/cs552/hw1/hw1_2/not1.v|
+!i113 0
+R4
+vxor3
+R1
+!i10b 1
+!s100 ^m3LI@GI`OB<lWUWmm]G23
+I@3I0Vj^c41R?A`J`6QN5G1
+R2
+R0
+R6
+8/userspace/y/yunhe/cs552/hw1/hw1_2/xor3.v
+F/userspace/y/yunhe/cs552/hw1/hw1_2/xor3.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1454484857.997683
+!s107 /userspace/y/yunhe/cs552/hw1/hw1_2/xor3.v|
+!s90 -reportprogress|300|-work|hw1_2|-vopt|-stats=none|/userspace/y/yunhe/cs552/hw1/hw1_2/xor3.v|
+!i113 0
+R4
