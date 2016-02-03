@@ -220,3 +220,204 @@ force -freeze sim:/mux4_1/InD 1'h1 0
 force -freeze sim:/mux4_1/S 2'h3 0
 run
 quit -sim
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Load canceled
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v failed with 1 errors.
+# 6 compiles, 1 failed with 1 error.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -vopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:36:11 on Feb 03,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /userspace/y/yunhe/cs552/hw1/hw1_1/quadmux4_1.v(10): (vopt-2872) Port 'S' cannot be connected by name in module 'mux4_1'.
+# Optimization failed
+# Error loading design
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -vopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:39:06 on Feb 03,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /userspace/y/yunhe/cs552/hw1/hw1_1/quadmux4_1.v(10): (vopt-2872) Port 'S' cannot be connected by name in module 'mux4_1'.
+# Optimization failed
+# Error loading design
+vsim -novopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:40:12 on Feb 03,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.quadmux4_1
+# Loading hw1_1.quadmux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux4_1
+# Loading hw1_1.mux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux2_1
+# Loading hw1_1.mux2_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.not1
+# Loading hw1_1.not1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nand2
+# Loading hw1_1.nand2
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nor2
+# Loading hw1_1.nor2
+# ** Fatal: (vsim-3366) /userspace/y/yunhe/cs552/hw1/hw1_1/quadmux4_1.v(10): Ports cannot be connected by name when a module contains unnamed ports.
+#    Time: 0 ns  Iteration: 0  Instance: /quadmux4_1/mux4_A File: /userspace/y/yunhe/cs552/hw1/hw1_1/mux4_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -novopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:41:35 on Feb 03,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.quadmux4_1
+# Loading hw1_1.quadmux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux4_1
+# Loading hw1_1.mux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux2_1
+# Loading hw1_1.mux2_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.not1
+# Loading hw1_1.not1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nand2
+# Loading hw1_1.nand2
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nor2
+# Loading hw1_1.nor2
+# ** Fatal: (vsim-3366) /userspace/y/yunhe/cs552/hw1/hw1_1/quadmux4_1.v(10): Ports cannot be connected by name when a module contains unnamed ports.
+#    Time: 0 ns  Iteration: 0  Instance: /quadmux4_1/mux4_A File: /userspace/y/yunhe/cs552/hw1/hw1_1/mux4_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -novopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:43:17 on Feb 03,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.quadmux4_1
+# Loading hw1_1.quadmux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux4_1
+# Loading hw1_1.mux4_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.mux2_1
+# Loading hw1_1.mux2_1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.not1
+# Loading hw1_1.not1
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nand2
+# Loading hw1_1.nand2
+# Refreshing /userspace/y/yunhe/cs552/hw1/hw1_1/hw1_1.nor2
+# Loading hw1_1.nor2
+# ** Fatal: (vsim-3366) /userspace/y/yunhe/cs552/hw1/hw1_1/quadmux4_1.v(10): Ports cannot be connected by name when a module contains unnamed ports.
+#    Time: 0 ns  Iteration: 0  Instance: /quadmux4_1/mux4_A File: /userspace/y/yunhe/cs552/hw1/hw1_1/mux4_1.v
+# FATAL ERROR while loading design
+# Error loading design
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -vopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:46:41 on Feb 03,2016
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.quadmux4_1(fast)
+quit -sim
+# Compile of mux2_1.v was successful.
+# Compile of nand2.v was successful.
+# Compile of nor2.v was successful.
+# Compile of not1.v was successful.
+# Compile of mux4_1.v was successful.
+# Compile of quadmux4_1.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -vopt hw1_1.quadmux4_1
+# vsim 
+# Start time: 00:49:23 on Feb 03,2016
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.quadmux4_1(fast)
+add wave -position insertpoint sim:/quadmux4_1/*
+force -freeze sim:/quadmux4_1/InA 4'h3 0
+force -freeze sim:/quadmux4_1/InB 4'h6 0
+force -freeze sim:/quadmux4_1/InC 4'h9 0
+force -freeze sim:/quadmux4_1/InD 4'h12 0
+force -freeze sim:/quadmux4_1/S 2'h0 0
+run
+force -freeze sim:/quadmux4_1/S 2'h1 0
+run
+force -freeze sim:/quadmux4_1/S 2'h2 0
+run
+force -freeze sim:/quadmux4_1/S 2'h3 0
+run
+force -freeze sim:/quadmux4_1/InD 4'h12 0
+force -freeze sim:/quadmux4_1/InD 4'hC 0
+run
+quit -sim

@@ -1,4 +1,4 @@
-module mux4_1(Out, InA, InB, InC, InD, S[1:0]);
+module mux4_1(Out, InA, InB, InC, InD, S);
 
   input InA;
   input InB;
